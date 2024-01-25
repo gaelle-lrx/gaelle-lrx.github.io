@@ -160,6 +160,7 @@ h3 {
     box-shadow: 0 0 3px  var(--secondary-dark-blue);
     text-align: center;
     margin: 8px;
+    padding: 0 5px;
 }
 
 .skills-box h4 {
@@ -265,8 +266,9 @@ footer {
 }
 
 
-
-
-/*
-At least one media query
-*/
+@media (min-width: 800px) {
+    #about, #certifications {
+      margin: auto;
+      width: 80%;
+    }
+  }
