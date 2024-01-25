@@ -171,18 +171,59 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
 .project-tile {
     width: 250px;
+    height: 60vh;
+    min-height: 350px;
+    max-height: 800px; 
     background-color: white;
     border: 1px solid var(--main-blue);
     border-radius: 10px;
     box-shadow: 0 0 3px  var(--secondary-dark-blue);
     text-align: center;
     margin: 8px;
+    padding: 20px 10px;
+}
 
+#projects img {
+    max-width: auto;
+    height: 150px;
+}
+
+.project-description {
+    height: 20px;
+    margin: 0;
+}
+
+.project-code {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}  
+
+.project-code img {
+    width: 35px;
+    height: auto;
+    margin: 0 2px -20px 2px;
+}
+
+.project-tile input {
+    padding: 5px 10px;
+    color: var(--main-blue);
+    background-color: var(--background-color);
+    border: 1.5px solid var(--main-blue);
+    border-radius: 2px;
+}
+
+.project-tile input:hover {
+    color: white;
+    background-color: var(--main-blue);
 }
 
 
