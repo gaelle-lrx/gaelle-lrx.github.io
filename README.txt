@@ -1,3 +1,11 @@
+
+Portfolio created from "Massively" template by HTML5 UP to display my work mostly about data analysis and visualisations (SQL, Python...).
+It is a work in progress and my lastest projects will be updated soon.
+
+To see a demo of my portfolio : https://gaelle-lrx.github.io/
+
+---------------------------------
+
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
